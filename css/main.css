@@ -1,0 +1,81 @@
+/* Написать */
+/* Селектор по классу */ 
+h1{
+    color: rgb(81, 33, 255);
+    font-family: 'Croissant One', cursive;
+}
+/* Селектор по типу элемента */
+#unic{
+    font-size: larger;
+    color: #ffbb1e;
+}
+/* Селектор по индентификатору */
+ul > li {
+    list-style-type: circle;
+    font-weight: 800;
+}
+/* Селектор потомков */
+nav > ol {
+    /* background-color: hsl(247, 100%, 80%); */
+    border-radius: 10px;
+    color: rgb(76, 0, 255);
+    width: 300px;
+}
+/* Селектор дочерних элементов*/
+a{
+    color: rgb(72, 72, 72);
+}
+a:hover{
+    color: blue;
+}
+nav:hover{
+    background-color: antiquewhite;
+    width: 300px;
+    border-radius: 10px;
+}
+/* Селектор псевдоклассов*/
+
+li:first-child {
+    font-weight: bold;
+    color: blue;
+}
+
+li:last-child {
+    font-style: italic;
+}
+/* Селектор первого и последнего элемента:*/
+h2+P{
+    font-weight: bold;
+    color: aqua;
+    font-size: larger;
+} 
+
+.kubick{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 112, 174);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+.corzina{
+    width: 220px;
+    height: 250px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin: top 4%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.content-container{
+    background-color: rgb(158, 148, 148);
+    border-radius: 2%;
+    padding: 5% 1%;
+    margin-top: 3%;
+}
+.section{
+    background-color: aqua;
+    padding: 10%;
+    border: solid 10px#ffbb1e;
+    border-radius: 5px;
+}
